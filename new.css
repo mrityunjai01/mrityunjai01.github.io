@@ -9,14 +9,22 @@ body {
     overflow: hidden;
     background-color: peru;
 }
-.upper-nav-item{
-    float: right;
-    color: bisque;
-    width: max-content;
-    background-color: rgb(206, 187, 223);
-    background: scroll;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+#photo{
+    border-bottom: blueviolet;
+    border-radius: 100px;
 }
+#photo:hover{
+    border-bottom: blue;
+    border-radius: 0px;
+}
+#topic{
+    color: brown;
+    font: outline;
+    font-weight: 100;
+    font-size: smaller;
+    font-style: normal;
+}
+
 div a {
     display: block;
     color: rgb(44, 24, 226);
@@ -25,7 +33,7 @@ div a {
     text-decoration: none;
   }
 div a:hover {
-    background-color: rgb(238, 236, 238);
+    background-color: rgb(108, 240, 104);
 }
 #main{
     font-size: x-large;
@@ -33,4 +41,17 @@ div a:hover {
     border-color: tomato;
     border-width: 40px;
     box-sizing: border-box;
+}
+p a{
+    font-size: large;
+    font-family: fantasy;
+    text-align: start;
+}
+.upper-nav-item{
+    float: right;
+    color: bisque;
+    width: max-content;
+    background-color: rgb(206, 187, 223);
+    background: scroll;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
