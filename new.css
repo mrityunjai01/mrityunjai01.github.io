@@ -12,8 +12,11 @@ body {
 #photo{
     border-bottom: blueviolet;
     border-radius: 100px;
+    border-width: 20px;
+    border-style: groove;
+    border-collapse: separate;
 }
-#photo:hover{
+img:hover{
     border-bottom: blue;
     border-radius: 0px;
 }
@@ -42,10 +45,11 @@ div a:hover {
     border-width: 40px;
     box-sizing: border-box;
 }
-p a{
+p a {
     font-size: large;
     font-family: fantasy;
     text-align: start;
+    width: 80px;
 }
 .upper-nav-item{
     float: right;
@@ -55,3 +59,40 @@ p a{
     background: scroll;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: rgb(221, 250, 60);
+    border: darkblue 20px;
+    margin: 2px;
+  }
+  .foot {
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
