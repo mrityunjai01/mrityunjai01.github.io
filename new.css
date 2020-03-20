@@ -1,0 +1,36 @@
+body {
+    color: blue;
+    left: 30%;
+    padding: 60px;
+}
+#uppermost-navbar{
+    color: aqua;
+    list-style-type: georgian;
+    overflow: hidden;
+    background-color: peru;
+}
+.upper-nav-item{
+    float: right;
+    color: bisque;
+    width: max-content;
+    background-color: rgb(206, 187, 223);
+    background: scroll;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+div a {
+    display: block;
+    color: rgb(44, 24, 226);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+div a:hover {
+    background-color: rgb(238, 236, 238);
+}
+#main{
+    font-size: x-large;
+    font-style: oblique;
+    border-color: tomato;
+    border-width: 40px;
+    box-sizing: border-box;
+}
