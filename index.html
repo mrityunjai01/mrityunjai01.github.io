@@ -4,7 +4,16 @@
         <title>
             Welcome to My Website
         </title>
-        
+        <script src="jquery-3.4.1.slim.js"></script> 
+        <script>
+            $(function(){
+              var includes = $('[data-include]');
+              jQuery.each(includes, function(){
+                var file = './' + $(this).data('include') + '.html';
+                $(this).load(file);
+              });
+            });
+          </script>
          <!--Import Google Icon Font-->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <!--Import materialize.css-->
@@ -13,7 +22,7 @@
         <!--Let browser know website is optimized for mobile-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link rel="stylesheet" href="new.css"/>
-        <?php include './header.php';?>
+        <div data-include = "header"> </div>
     </head>
     <body>
         <div id="main">
