@@ -1,4 +1,5 @@
 body {
+    background-color: black;
     color: blue;
     left: 30%;
     padding: 60px;
@@ -6,6 +7,10 @@ body {
 #uppermost-navbar{
     color: aqua;
     list-style-type: georgian;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
     overflow: hidden;
     background-color: peru;
 }
@@ -17,8 +22,7 @@ body {
     border-collapse: separate;
 }
 img:hover{
-    border-bottom: blue;
-    border-radius: 0px;
+    display: none;
 }
 #topic{
     color: brown;
@@ -41,6 +45,7 @@ div a:hover {
 #main{
     font-size: x-large;
     font-style: oblique;
+    color: azure;
     border-color: tomato;
     border-width: 40px;
     box-sizing: border-box;
@@ -53,9 +58,9 @@ p a {
 }
 .upper-nav-item{
     float: right;
-    color: bisque;
+    color: rgb(76, 173, 46);
     width: max-content;
-    background-color: rgb(206, 187, 223);
+    background-color: rgb(121, 50, 184);
     background: scroll;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -74,7 +79,7 @@ ul {
   li a {
     display: block;
     color: white;
-    text-align: center;
+      text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
