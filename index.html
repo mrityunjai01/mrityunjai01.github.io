@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Welcome to My Website
+    </title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <!--<script type="text/javascript" src="views/header.js"></script>-->
+    <!--#include file="views/header.html" -->
+
+
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
+
+    <div id="header"></div>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <div includehtml="header.html"></div>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="new.css" />
+    <!--#include file="views/header.html" -->
+    <div data-include="header"> </div>
+</head>
+
+<body>
+    <div id="main">
+        <div class="topic">Introduction</div>
+        <p id="intro">Hi! This is Mrityunjai Singh.
+            <br />
+            <img src="my_photo.jpeg" id="my_photo" />
+        </p>
+        <div class="topic">Links</div>
+        <div class="foot">
+            <ul>
+                <li><a href="https://www.facebook.com/people/Mrityunjai-Singh/100034391482761">Facebook</a></li>
+                <li><a href="https://github.com/mrityunjai01">Github</a></li>
+                <li><a href="https://www.instagram.com/mrityunjai99/">Instagram</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+</body>
+
+</html>
