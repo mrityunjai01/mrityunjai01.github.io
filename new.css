@@ -53,8 +53,8 @@ p a {
 }
 .upper-nav-item{
     float: right;
+    max-height: 100%;
     color: bisque;
-    width: max-content;
     background-color: rgb(206, 187, 223);
     background: scroll;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
