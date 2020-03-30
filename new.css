@@ -27,7 +27,12 @@ img:hover{
     font-size: smaller;
     font-style: normal;
 }
-
+#loremipsum {
+  width: fit-content;
+}
+div .foot {
+  height: auto;
+}
 div a {
     display: block;
     color: rgb(44, 24, 226);
@@ -59,10 +64,10 @@ p a {
     background: scroll;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-ul {
+ul .bottombar{
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding-right: 10px;
     overflow: hidden;
     background-color: #333;
   }
@@ -75,7 +80,7 @@ ul {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 16px;
     text-decoration: none;
   }
   

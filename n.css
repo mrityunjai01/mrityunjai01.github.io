@@ -8,8 +8,8 @@ body {
     color: rgb(150, 50, 50);
   }
   .right{
-    color: rgb(161, 5, 91)
-    float:right;
+    color: rgb(161, 5, 91);
+    float: right;
     text-align:right;
     margin-top: 30px;
   }
